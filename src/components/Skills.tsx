@@ -42,7 +42,7 @@ export const Skills = () => {
 
       <Typography pt={4}>As principais tecnologias que utilizo são:</Typography>
 
-      <Stack direction="row" mt={2} gap={1}>
+      <Stack direction="row" mt={2} gap={1} flexWrap="wrap">
         {skills.map((skill) => (
           <Chip key={skill} label={skill} color="primary" />
         ))}
