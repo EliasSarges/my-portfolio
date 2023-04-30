@@ -1,9 +1,12 @@
-import { Stack, Typography } from "@mui/material";
+import { Stack, Typography, useTheme } from "@mui/material";
 import Image from "next/image";
 import programmer from "~/assets/images/programmer.svg";
 import { SectionTitle } from "./SectionTitle";
+import Link from "next/link";
 
 export const AboutMe = () => {
+  const { palette } = useTheme();
+
   return (
     <Stack component="section">
       <SectionTitle>Sobre mim</SectionTitle>
@@ -47,13 +50,14 @@ export const AboutMe = () => {
             habilidades e aprender coisas novas, então, se você está procurando
             um desenvolvedor Front-end que pode fazer a diferença em seu
             projeto, fique à vontade para{" "}
-            <Typography
-              component="span"
-              color="primary.main"
-              sx={{ textDecoration: "underline" }}
+            <Link
+              href="mailto:eliassarges@oulook.com"
+              style={{
+                color: palette.primary.main,
+              }}
             >
               entrar em contato
-            </Typography>{" "}
+            </Link>{" "}
             comigo.
           </Typography>
         </Stack>
