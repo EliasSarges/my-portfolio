@@ -1,5 +1,5 @@
 import { Chip, Stack, Typography } from "@mui/material";
-import { SectionTitle } from "../SectionTitle";
+import { SectionTitle } from "./SectionTitle";
 
 export const Skills = () => {
   const skills = ["React.JS", "React-native", "Next.JS", "Node.JS"];

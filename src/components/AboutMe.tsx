@@ -1,7 +1,7 @@
-import { SectionTitle } from "../SectionTitle";
 import { Stack, Typography } from "@mui/material";
 import Image from "next/image";
 import programmer from "~/assets/images/programmer.svg";
+import { SectionTitle } from "./SectionTitle";
 
 export const AboutMe = () => {
   return (

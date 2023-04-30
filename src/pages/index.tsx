@@ -1,5 +1,5 @@
-import { AboutMe } from "~/components/AboutMe/AboutMe";
-import { Skills } from "~/components/Skills/Skills";
+import { AboutMe } from "~/components/AboutMe";
+import { Skills } from "~/components/Skills";
 import { Hero } from "~/components/Hero/Hero";
 import { Container } from "@mui/material";
 
