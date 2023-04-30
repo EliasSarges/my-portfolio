@@ -5,13 +5,12 @@ import programmer from "~/assets/images/programmer.svg";
 
 export const AboutMe = () => {
   return (
-    <Stack py={2} component="section">
+    <Stack component="section">
       <SectionTitle>Sobre mim</SectionTitle>
 
       <Stack
         alignItems="center"
         gap={4}
-        mt={4}
         direction={{
           md: "row",
         }}
@@ -31,7 +30,7 @@ export const AboutMe = () => {
         <Stack gap={4}>
           <Typography component="p">
             Olá, eu sou um programador{" "}
-            <Typography color="primary.main" component="span">
+            <Typography color="primary.main" component="em">
               front end
             </Typography>{" "}
             apaixonado por tecnologia. Para mim, desenvolver não é apenas um

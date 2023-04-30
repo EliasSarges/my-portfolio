@@ -27,7 +27,7 @@ export const HeroInfo = () => {
 
       <Typography component="p" lineHeight={1.5} mt={4}>
         Desenvolvedor{" "}
-        <Typography component="span" color="primary.main">
+        <Typography component="em" color="primary.main">
           front end
         </Typography>{" "}
         (ocasionalmente, designer), Meu foco é sempre proporcionar a melhor

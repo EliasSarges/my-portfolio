@@ -4,7 +4,7 @@ import { Stack } from "@mui/material";
 
 export const Hero = () => {
   return (
-    <Stack direction="row" gap={4} py={10}>
+    <Stack direction="row" gap={4}>
       <HeroInfo />
 
       <Stack
