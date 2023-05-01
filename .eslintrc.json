@@ -2,10 +2,6 @@
   "extends": [
     "next/core-web-vitals",
     "eslint:recommended",
-    "plugin:react-hooks/recommended",
-    "plugin:@typescript-eslint/recommended"
-  ],
-  "rules": {
-    "@typescript-eslint/no-empty-interface": "off"
-  }
+    "plugin:react-hooks/recommended"
+  ]
 }
