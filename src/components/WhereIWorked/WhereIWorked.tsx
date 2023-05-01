@@ -107,7 +107,7 @@ const works: Work[] = [
     id: 0,
     name: "@Movisis tecnologia ltda",
     description:
-      "Desenvolvedor responsável pelo time de front-end, comecei desenvolvendo e dando manutenção aos dois projetos Web. após alguns meses, fui o responsável por migrar e refatorar o antigo projeto para Typescript e adicionar ao mororepo já existente.",
+      "Desenvolvedor responsável pelo time de front-end, comecei desenvolvendo e dando manutenção aos dois projetos Web. Após alguns meses, fui responsável por migrar e refatorar o antigo projeto para Typescript e adicionar ao mororepo já existente.",
     skills: [
       "Nx",
       "Desenvolvimento e publicação de modulos NPM",

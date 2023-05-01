@@ -30,7 +30,7 @@ export const HeroInfo = () => {
         <Typography component="em" color="primary.main">
           front end
         </Typography>{" "}
-        (ocasionalmente, designer), Meu foco é sempre proporcionar a melhor
+        (ocasionalmente, designer), meu foco é sempre proporcionar a melhor
         experiência para o usuário, aliando beleza, funcionalidade e alto
         desempenho.
       </Typography>

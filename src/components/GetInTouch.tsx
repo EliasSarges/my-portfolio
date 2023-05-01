@@ -8,6 +8,7 @@ import {
   Stack,
   Box,
 } from "@mui/material";
+import { Mail } from "@mui/icons-material";
 
 export const GetInTouch = () => {
   const theme = useTheme();
@@ -24,6 +25,7 @@ export const GetInTouch = () => {
 
       <Box>
         <Button
+          startIcon={<Mail />}
           fullWidth={matches ? false : true}
           href="mailto:eliassarges@oulook.com"
           LinkComponent={Link}

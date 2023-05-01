@@ -32,14 +32,14 @@ export const AboutMe = () => {
 
         <Stack gap={4}>
           <Typography component="p">
-            Olá, eu sou um programador{" "}
+            Olá, sou um desenvolvedor{" "}
             <Typography color="primary.main" component="em">
               front end
             </Typography>{" "}
             apaixonado por tecnologia. Para mim, desenvolver não é apenas um
-            trabalho, mas também um hobby que eu amo dedicar meu tempo livre.
-            Adoro criar soluções digitais inovadoras que possam resolver
-            problemas reais e melhorar a vida das pessoas.
+            trabalho, mas também um hobby que amo dedicar meu tempo livre. Adoro
+            criar soluções digitais inovadoras que possam resolver problemas
+            reais e melhorar a vida das pessoas.
           </Typography>
 
           <Typography>

@@ -15,7 +15,7 @@ export const Skills = () => {
         </Typography>
         ,{" "}
         <Typography component="em" color="primary.main">
-          dinamicos
+          dinâmicos
         </Typography>
         , aplicações{" "}
         <Typography component="em" color="primary.main">
@@ -25,11 +25,11 @@ export const Skills = () => {
         <Typography component="em" color="primary.main">
           server-side
         </Typography>
-        , ou até mesmo{" "}
+        , e até mesmo{" "}
         <Typography component="em" color="primary.main">
           aplicativos
         </Typography>
-        . seguindo boas praticas de desenvolvimento e{" "}
+        . Seguindo boas práticas de desenvolvimento e{" "}
         <Typography component="em" color="primary.main">
           SEO
         </Typography>{" "}
