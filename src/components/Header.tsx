@@ -12,16 +12,7 @@ export const Header = () => {
       <Stack component="nav" direction="row" gap={1} py={2} alignItems="center">
         <Image src={logo} alt="logo" />
 
-        <Stack
-          justifyContent="center"
-          direction="row"
-          flexGrow={1}
-          gap={4}
-          display={{
-            xs: "none",
-            md: "flex",
-          }}
-        >
+        <Stack justifyContent="center" direction="row" flexGrow={1} gap={4}>
           {menuItems.map((item) => (
             <StyledLink href={`#${item}`} key={item}>
               {item}
