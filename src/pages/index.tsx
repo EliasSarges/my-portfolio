@@ -3,6 +3,7 @@ import { Skills } from "~/components/Skills";
 import { Hero } from "~/components/Hero/Hero";
 import { Container } from "@mui/material";
 import { GetInTouch } from "~/components/GetInTouch";
+import { WhereIWorked } from "~/components/WhereIWorked/WhereIWorked";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <AboutMe />
       <Skills />
+      <WhereIWorked />
       <GetInTouch />
     </Container>
   );

@@ -26,6 +26,13 @@ export default function App({ Component, pageProps }: AppProps) {
           },
         },
       },
+      MuiTab: {
+        styleOverrides: {
+          root: {
+            color: "white",
+          },
+        },
+      },
     },
   });
 
