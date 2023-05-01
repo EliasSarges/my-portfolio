@@ -1,38 +1,45 @@
-import { Container, Stack, Typography } from "@mui/material";
+import { Container, Link, Stack, styled } from "@mui/material";
 import logo from "~/assets/images/logo.svg";
 import Image from "next/image";
 
 export const Header = () => {
-  const menuItems = [
-    "Inicio",
-    "Sobre mim",
-    "Experiência",
-    "Meus projetos",
-    "Contato",
-  ];
+  const menuItems = ["Inicio", "Sobre mim", "Experiência", "Contato"];
 
   return (
-    <Container>
+    <Container
+      sx={{ position: "sticky", top: 0, zIndex: 99, backgroundColor: "#333" }}
+    >
       <Stack component="nav" direction="row" gap={1} py={2} alignItems="center">
         <Image src={logo} alt="logo" />
 
         <Stack
+          justifyContent="center"
+          direction="row"
+          flexGrow={1}
+          gap={4}
           display={{
             xs: "none",
             md: "flex",
           }}
-          direction="row"
-          gap={4}
-          flexGrow={1}
-          justifyContent="center"
         >
           {menuItems.map((item) => (
-            <Typography key={item} fontFamily="Play, sans-serif">
+            <StyledLink href={`#${item}`} key={item}>
               {item}
-            </Typography>
+            </StyledLink>
           ))}
         </Stack>
       </Stack>
     </Container>
   );
 };
+
+const StyledLink = styled(Link)`
+  color: #fff;
+  text-decoration: none;
+  font-family: Play, sans-serif;
+
+  :hover {
+    text-decoration: underline;
+    color: ${({ theme }) => theme.palette.primary.main};
+  }
+`;

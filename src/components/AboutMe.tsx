@@ -8,7 +8,7 @@ export const AboutMe = () => {
   const { palette } = useTheme();
 
   return (
-    <Stack component="section">
+    <Stack component="section" id="Sobre mim">
       <SectionTitle>Sobre mim</SectionTitle>
 
       <Stack

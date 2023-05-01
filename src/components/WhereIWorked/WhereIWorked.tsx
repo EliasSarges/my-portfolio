@@ -38,7 +38,7 @@ export const WhereIWorked = () => {
   );
 
   return (
-    <Stack>
+    <Stack component="section" id="Experiência">
       <SectionTitle>Locais onde trabalhei</SectionTitle>
 
       <Stack

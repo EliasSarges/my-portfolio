@@ -14,7 +14,7 @@ export const GetInTouch = () => {
   const matches = useMediaQuery(theme.breakpoints.up("md"));
 
   return (
-    <Stack component="section">
+    <Stack component="section" id="Contato">
       <SectionTitle>Entre em contato</SectionTitle>
 
       <Typography>

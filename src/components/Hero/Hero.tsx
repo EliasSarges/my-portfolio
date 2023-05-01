@@ -4,7 +4,7 @@ import { Stack } from "@mui/material";
 
 export const Hero = () => {
   return (
-    <Stack direction="row" gap={4} component="section">
+    <Stack direction="row" gap={4} component="section" id="Inicio">
       <HeroInfo />
 
       <Stack
