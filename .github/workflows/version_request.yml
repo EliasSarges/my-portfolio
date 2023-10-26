@@ -3,7 +3,7 @@ name: Update projet version
 on:
   workflow_dispatch:
     inputs:
-      hash-secret:
+      hash_secret:
         description: 'Hash secret'
         required: true
         type: string
@@ -22,4 +22,4 @@ jobs:
     steps:
     - name: Send request
       run: |
-        echo "secret: ${{ inputs.secret }} version: ${{ inputs.version }}"
+        echo "secret: ${{ inputs.hash_secret }} version: ${{ inputs.version }}"
