@@ -1,4 +1,4 @@
-name: Update projet version
+name: postbuild
 
 on:
   workflow_dispatch:
